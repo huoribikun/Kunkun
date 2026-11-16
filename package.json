@@ -1,0 +1,13 @@
+{
+  "name": "kunkun-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "焜焜 · 设计与插画作品集，完整可编辑项目与静态生产构建",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs src",
+    "preview": "node scripts/serve.mjs dist"
+  }
+}

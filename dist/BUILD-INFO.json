@@ -1,0 +1,1384 @@
+{
+  "project": "焜焜 · 设计与插画作品集",
+  "sourceCommit": "5271868580f32887397b4206d4fda55a89ddedbb",
+  "format": "static HTML/CSS/JavaScript",
+  "sections": 6,
+  "artworks": 50,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.js",
+      "bytes": 8194,
+      "sha256": "932fde5ad4a308fcb452c99d370c0a18b7b6093f20998d621f59e88d35584a16"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 733,
+      "sha256": "fafa8b3bc8e707ca1049ccf528ec6328bb970f2ad955cec7bfc257ca8002e6df"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-001.woff2",
+      "bytes": 8128,
+      "sha256": "0049f7154dcc3fa0d585f80383b232cb9e497084ee77e10519747d668db3cb55"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-002.woff2",
+      "bytes": 8976,
+      "sha256": "310e65da63933201c3381173106418442de6441742594001290b4056abbc9ed8"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-003.woff2",
+      "bytes": 9896,
+      "sha256": "811e869a2b23ff46086eeff6fa59185bb1aa982f5bcd8d34db51e10ea8e5f7e1"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-004.woff2",
+      "bytes": 24880,
+      "sha256": "cf5346b0747cd71123c8f74da0ad41fc0f63eda07b9d8e0382e00882ae743733"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-005.woff2",
+      "bytes": 64376,
+      "sha256": "2c5ddf9cdfad73afb5235e06bc8ed3b5c627849200d673978148700c78f84160"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-006.woff2",
+      "bytes": 58028,
+      "sha256": "a33308bf652e64ac2884bfe830996e933322b939b915bb823fd47383580664ad"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-007.woff2",
+      "bytes": 60516,
+      "sha256": "4ea85e144cb385ce086b21b307730d3fdb70a587aaf350b12d0c4c2f13e66d27"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-008.woff2",
+      "bytes": 63732,
+      "sha256": "1bfdb1f001006c62434577b60064c3ec0562e4a68191acbc7feeba4b303bf095"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-009.woff2",
+      "bytes": 61404,
+      "sha256": "1e716b78655e396075808be52a9e749df1b6b5d17bd0ccedc6dcb89586903737"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-010.woff2",
+      "bytes": 61612,
+      "sha256": "ade910a27a4bd65baed59a8a86a3a6a80f6083daa7123bb9ff32da15e56fda9d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-011.woff2",
+      "bytes": 62444,
+      "sha256": "d31c838eb0e43043109bd6ddc23c295c340fc50f9a2f2381076ae8c0fa7f980b"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-012.woff2",
+      "bytes": 60828,
+      "sha256": "d8d9b5fd2b266fdf3f6855444e7769e54f39806e48994e7fe5e0c4ace9553c81"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-013.woff2",
+      "bytes": 64340,
+      "sha256": "12fcc1175cb6370acb056743f4fea7fdde85b6376ada2f15dfbab59f02b45988"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-014.woff2",
+      "bytes": 60208,
+      "sha256": "85ebc9985c665dd55346ebc78b93f8d8ef6ff972d78afc288b75d697a242d780"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-015.woff2",
+      "bytes": 61188,
+      "sha256": "51785f4a4d2a011d877052cab1bc4c36cabcc4e186ed0176214061c174b7f024"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-016.woff2",
+      "bytes": 62400,
+      "sha256": "aaa67a70f5e8b351c558e32345093fdfd86f089726b3b86d84b58de6a2475104"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-017.woff2",
+      "bytes": 57460,
+      "sha256": "34e76675ceffd89824fb130d7649dc92df9e57843a73b9996d405baa2ff9ecff"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-018.woff2",
+      "bytes": 58428,
+      "sha256": "40290d98d5c121bdbb1909e39c9c0242eae3a5a88f1bbe302857e525b90056df"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-019.woff2",
+      "bytes": 57740,
+      "sha256": "c49b2eb658a0c2d76de9a279945de30bf32acd8fdd6d56cf84aea9c6b14aacae"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-020.woff2",
+      "bytes": 56264,
+      "sha256": "6c0cda055b31066fb60058ac30ede37f6f9ca02265c2e1a84aee81175f567fa8"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-021.woff2",
+      "bytes": 52796,
+      "sha256": "002e502515bee8b9efa1b17abf7e52b51d4cfa20538ae2b2bd82ac52e1153f5e"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-022.woff2",
+      "bytes": 52228,
+      "sha256": "3d7ced7101c03dfa9bf0e60460a1b91fc6f1166fb33f718506e8110bb12e74a7"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-023.woff2",
+      "bytes": 45992,
+      "sha256": "f26330ce4056382832c0f2a0d7f411e0b4140fc87937e8865d91664410cfb98c"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-024.woff2",
+      "bytes": 76324,
+      "sha256": "09b9fa5a9521fbeccb8267a5abe7443c83cbe25b32eb15b00de316d913235525"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-025.woff2",
+      "bytes": 11276,
+      "sha256": "0c5afc8752b151a444ccb3b21d740cc8e429347ea52bd4cf9d22b73937624bbf"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-026.woff2",
+      "bytes": 65220,
+      "sha256": "b15b23e18f7b765bd08d12d13210c0af8d32bee34712bc3152d0b386d043ec04"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-027.woff2",
+      "bytes": 56700,
+      "sha256": "a8f6664d83439cd5d329e9b35a54fb4d9d3786e80d3eaebbaeac24e3acf950fc"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-028.woff2",
+      "bytes": 62552,
+      "sha256": "fc59757db66129052cd8e4248045f92f8273b37f719be2a058a55859de190a0e"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-029.woff2",
+      "bytes": 58224,
+      "sha256": "074e6162a8ba4f9cf25881da25ce522bb949c1e2516142746daf85471bc48a9c"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-030.woff2",
+      "bytes": 50744,
+      "sha256": "68074245ba1ea9745cad9cf3780b69c9def3568891296e44d60e070e45df7b7a"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-031.woff2",
+      "bytes": 47324,
+      "sha256": "4e0dafaa26d924f5612a138a34a817aa06b8f72bad9798fe64d221fb13001d31"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-032.woff2",
+      "bytes": 50016,
+      "sha256": "31bb7facf7a62ee189026f7ff725b9c4639c712762036394c2996db140549746"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-033.woff2",
+      "bytes": 53848,
+      "sha256": "67d137f738bc8294a0365f60661e31b33a6e534d56d7e5ed6982d5e6ffa5663c"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-034.woff2",
+      "bytes": 54416,
+      "sha256": "12acd771479c93c76f064a81447266c349d6a33d2f1893d5413c6303b1156fef"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-035.woff2",
+      "bytes": 47084,
+      "sha256": "def5793483c7abc922de654bc16262646c9ae263819e663990b52fd56a3d5d69"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-036.woff2",
+      "bytes": 52368,
+      "sha256": "2d884d1cfd97c6f72518a2d690573e4130b0b707423f25963d7cc975388adf3e"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-037.woff2",
+      "bytes": 47332,
+      "sha256": "02fd273486d8e0c876b3b5d2c3c131b9ce85058196ee3ed77c7d38a7a10e139c"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-038.woff2",
+      "bytes": 46748,
+      "sha256": "13a18e443a4bf6557e252a63061914ce19c4be018c9b16eaf5c75842ee88baf5"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-039.woff2",
+      "bytes": 50464,
+      "sha256": "68413e3f3e5b912efd25702281aae9acb37c9920bb7bb941404506ab520add49"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-040.woff2",
+      "bytes": 41692,
+      "sha256": "21b841e271833161fe5f70a2052399e79faac029667abdcdffe81f260f2ce6b5"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-041.woff2",
+      "bytes": 53356,
+      "sha256": "bcbdf5fd7899c7ed192a0c89de9c6c92477be74b8c2343e74914359bfd32a10f"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-042.woff2",
+      "bytes": 54424,
+      "sha256": "ca375e4a6ecc230333656ad11081b26e6b8f3240f4160e22f75150d4fdddcc9f"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-043.woff2",
+      "bytes": 51616,
+      "sha256": "e73a947fa1fb1a7385e9d654fa0fe7dd8a2241e9b73282f67941c650c94de326"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-044.woff2",
+      "bytes": 3764,
+      "sha256": "29634170d5eb07f460a9eb1b2d0ef126ad0b5ef705e4c25191fd5794dc930d4d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-045.woff2",
+      "bytes": 46432,
+      "sha256": "2f186187cfd9a546d199aac41fbaed1241a47a7d5aad1804f98127506af80340"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-046.woff2",
+      "bytes": 36284,
+      "sha256": "7e2a21f95e969165ff32e2fdab8422b489d2c7b0f899f69bfc83d71872cde2af"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-047.woff2",
+      "bytes": 45432,
+      "sha256": "c53279f786dde3590baf0343d080fad8c7bd976e9dccecd2adea893cfad2f99a"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-048.woff2",
+      "bytes": 46488,
+      "sha256": "a98ffa0839e353eb7e768084e27892596616f6a3d8bb65c94202898bccb1fd68"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-049.woff2",
+      "bytes": 54096,
+      "sha256": "aa1a541dfacfcad0c66fb7f9dd4f9c12ce729d98311336c634702d066aabbbc2"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-050.woff2",
+      "bytes": 67436,
+      "sha256": "ea12aaa5635e53eaf7429500be57e9e8a6030e0906f985426412a1303761f77f"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-051.woff2",
+      "bytes": 57520,
+      "sha256": "d4a75aa10eb4487dcd94ff2009ef0f185d35f0e3264fa87532887c5c1517c816"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-052.woff2",
+      "bytes": 55972,
+      "sha256": "d5c48bd3b5502918adf253c96909f27be4eda7653fc0254a6564557b516cb2e1"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-053.woff2",
+      "bytes": 50616,
+      "sha256": "c4f53f8b05fa6350ac20f8a12b550f9634ed31b084dc50b1263f2080e392b9f7"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-054.woff2",
+      "bytes": 52768,
+      "sha256": "2418a76f14f6299b160af41cd283ed529b0030e2448b2ec11895ea5009561e25"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-055.woff2",
+      "bytes": 20044,
+      "sha256": "08f7b17fb6a88382277dfa1b6969f1f0b73a1f87819713849bb9e1ff6017088e"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-056.woff2",
+      "bytes": 45724,
+      "sha256": "050cbf869048801588356d05f1145c601ddb9063a9e9fd241bbd0997a5ca263f"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-057.woff2",
+      "bytes": 41476,
+      "sha256": "48810df68807cb9a06052daa52495183575373dc1f3294cce7739a6f37ff25cf"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-058.woff2",
+      "bytes": 51772,
+      "sha256": "bf40713c12d0ae841b4cbe9d487724e4ee780fdb84844a96ba8ebae6b79a3191"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-059.woff2",
+      "bytes": 43284,
+      "sha256": "13b6821eb6534f1ac72a4bab506de7012bec7fe0b9bb0a73733d5c798dd45e29"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-060.woff2",
+      "bytes": 51816,
+      "sha256": "db60ee4c755151c036004e39bde39fa9676c6a9d1753d9842ae1a7b2e5899b83"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-061.woff2",
+      "bytes": 47948,
+      "sha256": "70105493871b782981352a0cf696487afc098a69a4708d87a7931607fe15a128"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-062.woff2",
+      "bytes": 53332,
+      "sha256": "cc5fe9a6dedd91e7b95482713b12c84d99a04f90d5124e50db3efa9f2450923f"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-063.woff2",
+      "bytes": 55348,
+      "sha256": "3a4bddf6442271be898390e29e344183f5f10a97eefa04595c9537f535f34927"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-064.woff2",
+      "bytes": 57468,
+      "sha256": "b4a952b513ca0e1b594a856e5398d1e40d69b0bf220825210955fde747faa8d0"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-065.woff2",
+      "bytes": 47504,
+      "sha256": "0557109d55c77ff9c9b5c9732d732c5328bd0b61038cffe611d9d62b26ded420"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-066.woff2",
+      "bytes": 11388,
+      "sha256": "675ff09731b49aeff9031c6d8edb3d54766aec64e4c6c699be5766729e4dad98"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-067.woff2",
+      "bytes": 41300,
+      "sha256": "105d09095364787b4eef08ecd4faa975d66ad3ce2be43bb968dd37b9285e6667"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-068.woff2",
+      "bytes": 45096,
+      "sha256": "21c21d2375925f742573edc50e3bca85a63350bf1d5d566d2d762f8ce2b259d9"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-069.woff2",
+      "bytes": 58956,
+      "sha256": "d532c89a0da063c68ce871a7f85fa75448efc3089335e012f107d80618512fd4"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-070.woff2",
+      "bytes": 49052,
+      "sha256": "0897654d316342cdf37bb3d16fcf1a51fdcc38fcf1fb39880b5d3f17e87bf7de"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-071.woff2",
+      "bytes": 41408,
+      "sha256": "d490960a491521936b84a4be078a9570444960a2dc73c584b802d2c9c8fba1c1"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-072.woff2",
+      "bytes": 41392,
+      "sha256": "086958b9f441a2ba9fca76e9ac4924bc4acb60559bd5620d348c707ff154ee83"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-073.woff2",
+      "bytes": 52620,
+      "sha256": "50c8a455f282618211dacd6a0a30c1dee510d6d46eea9be79937b24e69cb0353"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-074.woff2",
+      "bytes": 52464,
+      "sha256": "54fc8c9eca1c929480b2c090907dfd9d42875cec49989b0737af2b6a60097f29"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-075.woff2",
+      "bytes": 41380,
+      "sha256": "3ed406ceb43b6f73a6a42ad9e8b2a9aab96fd6603bab5b73a908ca53f0d354a8"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-076.woff2",
+      "bytes": 55520,
+      "sha256": "c7d1f5b0f95f358dee4cf9e76eda5c0465eb9d0f4e21a13ef39d0cf8761e5b9d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-077.woff2",
+      "bytes": 42080,
+      "sha256": "8474823a5264bfdee208fd16e2e5f3fe689e8eb18941446678426dc5f1264d19"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-078.woff2",
+      "bytes": 47768,
+      "sha256": "734da1dcc260ca6cc29c9e42078125ae8e4583fbc1f7cc76d82572a73767f04d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-079.woff2",
+      "bytes": 46916,
+      "sha256": "71d3da5b2d0e05b8899e271aaa49982fa73a589168be26a8350ff6f79f20bfd7"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-080.woff2",
+      "bytes": 39096,
+      "sha256": "92f8b99dc1a79089d18b1684447e31ef62abf48de736555cf5840b781aeb9d56"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-081.woff2",
+      "bytes": 56260,
+      "sha256": "5c8faf77fe0277b9e59904396fdf3fe24088bcb2decfc5729895b279c53754f6"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-082.woff2",
+      "bytes": 43824,
+      "sha256": "216c1c94ee016db46f8d1dc5c51f402215dbf9013fbf9f60f3db3901f9a3b035"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-083.woff2",
+      "bytes": 48240,
+      "sha256": "8a31272bf31f9340747866ad1a59ff6073bf92fe802e2ba5a531f6a8aac2a42b"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-084.woff2",
+      "bytes": 36664,
+      "sha256": "bc249f82f40ec61d6ec096c748603fdb4e946adaf659392b06c6810169e81513"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-085.woff2",
+      "bytes": 48916,
+      "sha256": "26210c38ccee9b53194481bed1dfc1aa4f74810d5672b2e7ed6a2e44b169835d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-086.woff2",
+      "bytes": 41064,
+      "sha256": "db79df334235f3d72cc0a7e625bfee1c3d6a76104af15e0814c4926ceee6188e"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-087.woff2",
+      "bytes": 32448,
+      "sha256": "c9ce6e0654379a2dd291a6f29323ff2d7f06156389ffb3e4d087a9d211887a6b"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-088.woff2",
+      "bytes": 47504,
+      "sha256": "9958d614924fa54de4f661febd02c1de787ef640d58970e4d928e1ecd7c17990"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-089.woff2",
+      "bytes": 46008,
+      "sha256": "2129264ef35c203e3a2c2bc16abc437c110c57006d108ff107ad775dc7ea1e39"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-090.woff2",
+      "bytes": 43356,
+      "sha256": "24a037cbb07cb4de1f92993a9ceda16ba4483f1d63f6f529ea26ae44f01243fd"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-091.woff2",
+      "bytes": 32516,
+      "sha256": "e1b9b9aee81a74fc4ec19e1709c64a0042d9d898a2f00f6c3b2012564b6a4783"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-092.woff2",
+      "bytes": 26768,
+      "sha256": "cce97c39b9304c87e55ed84d511d479afd3343b91c04b3ac7bdc5beb9ecf709d"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-093.woff2",
+      "bytes": 33428,
+      "sha256": "55fd1a42ab8ace744691b59c535499ad22b22c7c98b1d69a22fe101a2cd9b0e9"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-094.woff2",
+      "bytes": 7956,
+      "sha256": "40292a14f8f52accb05252b7ec7c68e00f35781d2a726223bec1685eee6312b5"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-095.woff2",
+      "bytes": 7228,
+      "sha256": "008f38db74bc1c346ba8f4d6065dd41d0fe33a4ed2f9909cb880b81c5a3f9334"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-096.woff2",
+      "bytes": 10792,
+      "sha256": "74a75243aa93eb61367a28d217ce82b76c6cf9e86d0f23fd96708bfd91b68f46"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-097.woff2",
+      "bytes": 9224,
+      "sha256": "80d51f95afbebcbed0cc53985fbce43eec3a37c8ec88b08d316c56a32aa77843"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-098.woff2",
+      "bytes": 8616,
+      "sha256": "7bf857d9d1285675fe572e64f968ae1f3213da7654ffd335633fb5b39493c057"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-099.woff2",
+      "bytes": 2072,
+      "sha256": "7671f7b32d4c5c11ba72df9e6b9a18a6441f863aade2623ac0562ebd34b82bc7"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-100.woff2",
+      "bytes": 3412,
+      "sha256": "94e55b60e87bfb909709592144002c0b10a4214612ea512b38bb719c9ef45c49"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc-101.woff2",
+      "bytes": 9696,
+      "sha256": "6b2d1065f737c83608088c2e241c605683d94c6160121ca976496507ebc6cc94"
+    },
+    {
+      "path": "assets/fonts/noto-sans-sc.css",
+      "bytes": 103179,
+      "sha256": "ecb8192d8d300dfaeae01d1ea0fbd66020774cc855b63cbab1f5615739c462ba"
+    },
+    {
+      "path": "assets/motion/guitar.svg",
+      "bytes": 1470598,
+      "sha256": "a9fae79077d88124f752df264f9c54d57bb6d682927f22d33fa36aac512d4900"
+    },
+    {
+      "path": "assets/motion/music-note.svg",
+      "bytes": 1470365,
+      "sha256": "28b699f5c332698cfab35c81c6a2a75e395cd0cbc8596985519f4bb41537c3ff"
+    },
+    {
+      "path": "assets/motion/music-star.svg",
+      "bytes": 1470468,
+      "sha256": "05af7ed703d2a5f67fbea9c58468435a58b36a00b7a2d637f5d972be2e450602"
+    },
+    {
+      "path": "assets/works/originals/work-001.jpg",
+      "bytes": 109316,
+      "sha256": "121dcf19b235468dde4a2bf813ea6c0dd236e82afd1bfc3a134424915e08650e"
+    },
+    {
+      "path": "assets/works/originals/work-002.png",
+      "bytes": 1734121,
+      "sha256": "f9ae844890e80dd652ea8f926d3b767c1f3ac462caaaca99f80153ca10d3162f"
+    },
+    {
+      "path": "assets/works/originals/work-003.png",
+      "bytes": 1418815,
+      "sha256": "e22d7488b30d7253b01fec09c8050ffbb9afee6de91d96e7ca288b0e60f6e9a0"
+    },
+    {
+      "path": "assets/works/originals/work-004.png",
+      "bytes": 1580216,
+      "sha256": "1ee9047e11a1c6bfd96a9965cfc117903f3bc53c39112d42bc0a63c1a60979fa"
+    },
+    {
+      "path": "assets/works/originals/work-005.jpg",
+      "bytes": 153958,
+      "sha256": "4111c0ca5d3b7c4c70e994d23fefd839dbc310de2ed6c1117dfd1490b507ac5d"
+    },
+    {
+      "path": "assets/works/originals/work-006.jpg",
+      "bytes": 197617,
+      "sha256": "9f68134e5335529a54d1b806488087433655bbad86bd2ca6bf54460864408436"
+    },
+    {
+      "path": "assets/works/originals/work-007.jpg",
+      "bytes": 683544,
+      "sha256": "5b3cbc495e21313a23649a7eba58dadc863a986c4df41250e4bfe1967056e58d"
+    },
+    {
+      "path": "assets/works/originals/work-008.jpg",
+      "bytes": 667786,
+      "sha256": "3212a54dbb41fcb47412724dd95d2d102ecd543f328afed3655678785bc95212"
+    },
+    {
+      "path": "assets/works/originals/work-009.jpg",
+      "bytes": 736666,
+      "sha256": "d38f1d22b7a0d901c8dfcadeb2796fc84274aca3967e0e17460f68cabd02c366"
+    },
+    {
+      "path": "assets/works/originals/work-010.jpg",
+      "bytes": 694453,
+      "sha256": "109bb9fb2ba72501374d3abf725ce40153d96d4480eb6cbbe961fae760ec2cc2"
+    },
+    {
+      "path": "assets/works/originals/work-011.jpg",
+      "bytes": 761785,
+      "sha256": "f9d73c5744ab5a232020898a48e3c63fa1fe5cd00861be76134dfb38a7db9cd2"
+    },
+    {
+      "path": "assets/works/originals/work-012.jpg",
+      "bytes": 746469,
+      "sha256": "e878f56ecea8fd0842d38d2105ce75ac1b5ca610a6e915694affd8a2d243b359"
+    },
+    {
+      "path": "assets/works/originals/work-013.jpg",
+      "bytes": 76235,
+      "sha256": "79974d926ad74dccf5c29a722b20dbd47d865dec466c165f4bd06e065ad1ca4a"
+    },
+    {
+      "path": "assets/works/originals/work-014.jpg",
+      "bytes": 70453,
+      "sha256": "74baad38ec27aa3781d3d5c176917f3670392d2fcda9399af2b1192cccff2157"
+    },
+    {
+      "path": "assets/works/originals/work-015.jpg",
+      "bytes": 87417,
+      "sha256": "59081a33be3d770edc25978587d7f05fe16f0989ea84ab684ac48bb380574b7a"
+    },
+    {
+      "path": "assets/works/originals/work-016.jpg",
+      "bytes": 81616,
+      "sha256": "f1aa298dba5531c667fc443e458770149495afcaa647be89786df39413a256d5"
+    },
+    {
+      "path": "assets/works/originals/work-017.jpg",
+      "bytes": 83926,
+      "sha256": "f8826c370863f21486901ca76515c4f14e72e4de01ec352875fbd5ca163c2498"
+    },
+    {
+      "path": "assets/works/originals/work-018.jpg",
+      "bytes": 165344,
+      "sha256": "de888e0c25f99ac8516aadde985b085962ee9b0b27b83b896921f65ee1f6ea8b"
+    },
+    {
+      "path": "assets/works/originals/work-019.jpg",
+      "bytes": 238376,
+      "sha256": "a2a484aa42eb281c72ffc28a57b613cacf194428127e43a814684286fb79abd9"
+    },
+    {
+      "path": "assets/works/originals/work-020.jpg",
+      "bytes": 119629,
+      "sha256": "288cb08589a3eb8546a9ac05773a6d46d542dbb2e4a65912c36e56dabac6ae88"
+    },
+    {
+      "path": "assets/works/originals/work-021.jpg",
+      "bytes": 288522,
+      "sha256": "0f59c86a402ad31cb01b8ac4dda0c463fbdb52ed56940a71b008c23c754cdc37"
+    },
+    {
+      "path": "assets/works/originals/work-022.jpg",
+      "bytes": 152183,
+      "sha256": "aa71303ebc6cef17767f2416836eed6122b159b684e4c2146ccccc5a003baff8"
+    },
+    {
+      "path": "assets/works/originals/work-023.jpg",
+      "bytes": 135840,
+      "sha256": "abc06c5aefd4e6b28a918333a63d56442efda0cd384bbfd9e6e0f4ea3897c07d"
+    },
+    {
+      "path": "assets/works/originals/work-024.jpg",
+      "bytes": 166538,
+      "sha256": "e20bd9e8f7252b730722cbec30bd391cee8d3668b4a2de411b7fb81e85310f0f"
+    },
+    {
+      "path": "assets/works/originals/work-025.jpg",
+      "bytes": 168692,
+      "sha256": "41cc1a3caf8f1075be4f860bfc612f4916528b69a7f3e7408bd9b8edd96206a9"
+    },
+    {
+      "path": "assets/works/originals/work-026.jpg",
+      "bytes": 165688,
+      "sha256": "fc7e1e9d5111d54f3fc28c5a5c9dc5920b94093da776d9fb83a0c3fbd00276b0"
+    },
+    {
+      "path": "assets/works/originals/work-027.png",
+      "bytes": 888190,
+      "sha256": "ea1c7c931aacb08fe8c26d7f77adffc8f337128ea94771db1d6468ec82c52dce"
+    },
+    {
+      "path": "assets/works/originals/work-028.png",
+      "bytes": 1147154,
+      "sha256": "4be5a248ab8e0887d9de68769973f6e0650de68c08214277f8ff205dd2d9112f"
+    },
+    {
+      "path": "assets/works/originals/work-029.png",
+      "bytes": 932894,
+      "sha256": "20ae9c1f7225a9e7cc449d23a6f856b39d8fcef74d7ff8c71067bb8737a65da2"
+    },
+    {
+      "path": "assets/works/originals/work-030.png",
+      "bytes": 863780,
+      "sha256": "c0280969fed9e31b221cdf8c90a0c8eeb48c968faca1ddc8bd3163bf57fae142"
+    },
+    {
+      "path": "assets/works/originals/work-031.png",
+      "bytes": 958399,
+      "sha256": "ef39797093f7ca5a310052558cbc88b8507250cd950edbf1d94f8501749e8d08"
+    },
+    {
+      "path": "assets/works/originals/work-032.png",
+      "bytes": 1102516,
+      "sha256": "52d31bac608644270272aea400a25efe23c5e5a33bdbd358a8f79a9907a5cd50"
+    },
+    {
+      "path": "assets/works/originals/work-033.png",
+      "bytes": 832426,
+      "sha256": "f26aedb66ad0f22170e022d59ed5c1b53c2da615a7be4fc0c625c490662ff530"
+    },
+    {
+      "path": "assets/works/originals/work-034.png",
+      "bytes": 892912,
+      "sha256": "1e0b1b515c40c3f3f6748b4f169fb939d46b27d82d6c3e8b918df59304740881"
+    },
+    {
+      "path": "assets/works/originals/work-035.png",
+      "bytes": 240715,
+      "sha256": "e3ebc7a4570637efbf064b779a8c6f50d22fb07f9e2d44e5949126f21b0e5169"
+    },
+    {
+      "path": "assets/works/originals/work-036.png",
+      "bytes": 279850,
+      "sha256": "58e8c66218915ba3d0fd11dd78fff9d175e539d55748d713cbc9281befde3377"
+    },
+    {
+      "path": "assets/works/originals/work-037.png",
+      "bytes": 209502,
+      "sha256": "a6a2871c9eafbce22b35b66a6b16bb1eb9ca5e9162bb300594c7e4e12985b0ba"
+    },
+    {
+      "path": "assets/works/originals/work-038.png",
+      "bytes": 847895,
+      "sha256": "826f97ed27736d3db52acdfe418ad3388d5921a4c09f272ca1a13ffebb87ea30"
+    },
+    {
+      "path": "assets/works/originals/work-039.jpg",
+      "bytes": 131276,
+      "sha256": "d4c0c3432db812f6ca2be6edf94d84b28b6a6aa93d7fa7e4e26f0e71e0d7a432"
+    },
+    {
+      "path": "assets/works/originals/work-040.jpg",
+      "bytes": 132261,
+      "sha256": "472a8a1888d64b8159c7062034767f442be91d364c4943a087f7e2cbfbea8589"
+    },
+    {
+      "path": "assets/works/originals/work-041.jpg",
+      "bytes": 135195,
+      "sha256": "5fa65d603cd127258c3d1ddd1ba903d050b302e2e1ae23ae95ff9ff325c322cd"
+    },
+    {
+      "path": "assets/works/originals/work-042.jpg",
+      "bytes": 207973,
+      "sha256": "02da6fba8148f2fe99fb611ed13f03b546133047a13d9a9c68bdb4de5e3054c5"
+    },
+    {
+      "path": "assets/works/originals/work-043.jpg",
+      "bytes": 229041,
+      "sha256": "42554260fc0dd8d98f16145f6d718c68d16909b353edf0b8cd20c3ba0630fc33"
+    },
+    {
+      "path": "assets/works/originals/work-044.jpg",
+      "bytes": 176304,
+      "sha256": "07181ca445caac0066d8fb03b76b6329cac4689daec26c57571088e17218f88e"
+    },
+    {
+      "path": "assets/works/originals/work-045.jpg",
+      "bytes": 290851,
+      "sha256": "fdb97cbb8809b9ec34afb42964930a1209a9d5c257c66cf5214478609d4882b1"
+    },
+    {
+      "path": "assets/works/originals/work-046.jpg",
+      "bytes": 229410,
+      "sha256": "621e101665ec088665e5da27a62986661b355b605367123c3c42a033c62680f1"
+    },
+    {
+      "path": "assets/works/originals/work-047.jpg",
+      "bytes": 810366,
+      "sha256": "68cce9a730c6403d1901d636c7a78319c08e7c79bdb301166e5e21508e999c62"
+    },
+    {
+      "path": "assets/works/originals/work-048.jpg",
+      "bytes": 801375,
+      "sha256": "710b5dcf267b2741b64d28fe9397f9b318b4741786ea38924580018ea5880f7e"
+    },
+    {
+      "path": "assets/works/originals/work-049.jpg",
+      "bytes": 786079,
+      "sha256": "aecf2bddbff1a2fe32696f1a0eda69eb9932fbd2bda8719981d7720bfb9242c5"
+    },
+    {
+      "path": "assets/works/originals/work-050.jpg",
+      "bytes": 7242536,
+      "sha256": "967cf9025207ab065ff29db50a15ae68271a9faa92750ec81391b68cb869efcf"
+    },
+    {
+      "path": "assets/works/work-001-thumb.webp",
+      "bytes": 36858,
+      "sha256": "818054b818187be1aeddbeb4c364a5951651702b741bde828067aabe3695184e"
+    },
+    {
+      "path": "assets/works/work-001.webp",
+      "bytes": 107542,
+      "sha256": "84f78e7808e95d79b27db8d2309f70bf949b3e055de86bfd49843e69f9e466c6"
+    },
+    {
+      "path": "assets/works/work-002-thumb.webp",
+      "bytes": 73922,
+      "sha256": "ddd007af880a5075f44340baf9d4d72f62b333aed39f97f570983c4b8d667cc8"
+    },
+    {
+      "path": "assets/works/work-002.webp",
+      "bytes": 234432,
+      "sha256": "83a680887650090717ddb8cf28ce9a5fe489600f28e03fc55e9aec4b17f7cea8"
+    },
+    {
+      "path": "assets/works/work-003-thumb.webp",
+      "bytes": 75646,
+      "sha256": "a49b0e575ac93be9b50e03fd4272ad2ef6ed9999ca6f06afb43cc5894fe5c2f8"
+    },
+    {
+      "path": "assets/works/work-003.webp",
+      "bytes": 188388,
+      "sha256": "be1c8b05e86ff8877088a71acf5c8bb7ae9beb9000fbe415179284fc658d3450"
+    },
+    {
+      "path": "assets/works/work-004-thumb.webp",
+      "bytes": 101140,
+      "sha256": "1ab4b23ecefb1539d83b8f58633663fadb8b7ff6fcd836cb9a1e03159dcd929d"
+    },
+    {
+      "path": "assets/works/work-004.webp",
+      "bytes": 278508,
+      "sha256": "18360efe7fcbe9398c2eafaaa46b76c6622948a06c7523798b9af10291576a26"
+    },
+    {
+      "path": "assets/works/work-005-thumb.webp",
+      "bytes": 60764,
+      "sha256": "c388e77bc533a81a2e9237f5b684f71d94a9bdb204d2326dbd62a39a1203f47e"
+    },
+    {
+      "path": "assets/works/work-005.webp",
+      "bytes": 179904,
+      "sha256": "dcd9e2a5081c1000fad63aaa2e23fd611b30b28cf5433ed97741e75ddc459f2d"
+    },
+    {
+      "path": "assets/works/work-006-thumb.webp",
+      "bytes": 87480,
+      "sha256": "a2023569d809b66da0dcb2a24bd8da65aefa3dd0ab18b81f41a893261ceb13d7"
+    },
+    {
+      "path": "assets/works/work-006.webp",
+      "bytes": 258514,
+      "sha256": "0277a502c6ffdac2197473dbb052566da812c212ffc6cce05a33dd31752f7b33"
+    },
+    {
+      "path": "assets/works/work-007-thumb.webp",
+      "bytes": 57998,
+      "sha256": "335398d133c868a9cc7c81a5c3abc5de9b34478ba9066956798ddccf549d06f6"
+    },
+    {
+      "path": "assets/works/work-007.webp",
+      "bytes": 196966,
+      "sha256": "b81fa0cad011ee5b71925201c8e03cf29fb47fad42003ff967291d718328dbe2"
+    },
+    {
+      "path": "assets/works/work-008-thumb.webp",
+      "bytes": 58870,
+      "sha256": "9d6d4be0288fd31361d6f0693bb756e86d3f144ce787afa4119a9908edbc4528"
+    },
+    {
+      "path": "assets/works/work-008.webp",
+      "bytes": 191654,
+      "sha256": "d39fd5370db541edc363995942e83f1b5cdbfcda5bdfc6a11c62806796b07e6c"
+    },
+    {
+      "path": "assets/works/work-009-thumb.webp",
+      "bytes": 62040,
+      "sha256": "ed250d4cc1b1e3f252211727e522122124b6962fbf21ef0f3d27798e165f4282"
+    },
+    {
+      "path": "assets/works/work-009.webp",
+      "bytes": 209106,
+      "sha256": "e8606f4986e9503ff41597b637dd9d4fd164c79e4b38a05ca65ce6e2d9b2bec3"
+    },
+    {
+      "path": "assets/works/work-010-thumb.webp",
+      "bytes": 57566,
+      "sha256": "4a41dd616d01d9585bfba331baec87b64fbe5617ec684d1823d22b170ed57045"
+    },
+    {
+      "path": "assets/works/work-010.webp",
+      "bytes": 189634,
+      "sha256": "941513095d658b79939348e012b09a261d238f86f323dedfbc396a71cb2fe9ba"
+    },
+    {
+      "path": "assets/works/work-011-thumb.webp",
+      "bytes": 62584,
+      "sha256": "197e14962539160646f75d7e8fd90bf646aa80ddfe0632feaf5f23c41e348abd"
+    },
+    {
+      "path": "assets/works/work-011.webp",
+      "bytes": 222430,
+      "sha256": "8046a14b95f518cbe612af538a5132826b6571c117c5e530e9f59bd4b3f9744f"
+    },
+    {
+      "path": "assets/works/work-012-thumb.webp",
+      "bytes": 61362,
+      "sha256": "2e32fc082b72d0c45c1835c383ff72350bb486c4038fd9729107671b9fe17bf6"
+    },
+    {
+      "path": "assets/works/work-012.webp",
+      "bytes": 214780,
+      "sha256": "9bd9debc167c4dd6572a2cdf32011695fcddcd8489eb99dd8f8b7077c92957f2"
+    },
+    {
+      "path": "assets/works/work-013-thumb.webp",
+      "bytes": 28170,
+      "sha256": "ce42298b2fa2d11ae3d3e64508012481325c9b45c7bcda0c775ecd7445e2cc2c"
+    },
+    {
+      "path": "assets/works/work-013.webp",
+      "bytes": 75898,
+      "sha256": "cec331d20c77bc5f9b57a3e1f9f1aca35b9d6f9099b6668872a27c78092746b0"
+    },
+    {
+      "path": "assets/works/work-014-thumb.webp",
+      "bytes": 23364,
+      "sha256": "097f6e33f1bc304a5a466a1d325741b4d9692217b21115191a9b219525fa2d00"
+    },
+    {
+      "path": "assets/works/work-014.webp",
+      "bytes": 64498,
+      "sha256": "04a4102f69aed2a6cdf1de727886b1819d11652ef3f3e499d9150dab1d29c891"
+    },
+    {
+      "path": "assets/works/work-015-thumb.webp",
+      "bytes": 32116,
+      "sha256": "e8d3e65080f8d67aae5f448292fc9248fb30656d0226f22457f6d72d78c4cbd0"
+    },
+    {
+      "path": "assets/works/work-015.webp",
+      "bytes": 90062,
+      "sha256": "f4a118256e2f683758dae05452c75f832261305ea8f7b4ce17928cec5bd4e5a0"
+    },
+    {
+      "path": "assets/works/work-016-thumb.webp",
+      "bytes": 28132,
+      "sha256": "6aa376a90e5e1fed6ee83573f8ea343f258d0ffe1d7f78a09c76cecb76a2992a"
+    },
+    {
+      "path": "assets/works/work-016.webp",
+      "bytes": 75336,
+      "sha256": "1219e4a060aea1a05b85134eb87247558d56b54db23c1c3fa1bc69507b19e658"
+    },
+    {
+      "path": "assets/works/work-017-thumb.webp",
+      "bytes": 31210,
+      "sha256": "6a921ce2b824e63858726692d8d31a8f842bce75646d2435c13a34090a7cc3be"
+    },
+    {
+      "path": "assets/works/work-017.webp",
+      "bytes": 85048,
+      "sha256": "cc9b21053524c3a7bbf4ec4689813317c1e1fa14f8b93da7b5d35c5bae0b586f"
+    },
+    {
+      "path": "assets/works/work-018-thumb.webp",
+      "bytes": 70208,
+      "sha256": "116df2289468f7b53a55a707ad75d6f8ece8e1476751e03bc5ecb97c6d85362d"
+    },
+    {
+      "path": "assets/works/work-018.webp",
+      "bytes": 187478,
+      "sha256": "818f523630773c701bbc7c7d7d6413065203ca75ce2a507bf40aebd4fc571b73"
+    },
+    {
+      "path": "assets/works/work-019-thumb.webp",
+      "bytes": 88094,
+      "sha256": "14724f2d4a87e3cf9aaabcfb88a8906fc30cc68e3d723dc866cb47cecc488f57"
+    },
+    {
+      "path": "assets/works/work-019.webp",
+      "bytes": 342896,
+      "sha256": "5c2c845c4c8053b63fd975376636b9dd48ac4943f4de33ac94ee8a2fcf74f7df"
+    },
+    {
+      "path": "assets/works/work-020-thumb.webp",
+      "bytes": 49010,
+      "sha256": "b38ac68d0028a9c226e1de4335c291544c42be302c6330475fc152f4909ae941"
+    },
+    {
+      "path": "assets/works/work-020.webp",
+      "bytes": 147304,
+      "sha256": "bf1a133e10de8c1fcb4d497611317c6d5eb3d32c4faaa34dfa443be1cf4744a9"
+    },
+    {
+      "path": "assets/works/work-021-thumb.webp",
+      "bytes": 130942,
+      "sha256": "0250a178eb23cba79428288867852e9e05bc7c5f15f3053fa8c623bf2277e1ac"
+    },
+    {
+      "path": "assets/works/work-021.webp",
+      "bytes": 657124,
+      "sha256": "e5ac2382b6aec38979d22f31bd38e02ec037e78d08103526274ab84c446982e6"
+    },
+    {
+      "path": "assets/works/work-022-thumb.webp",
+      "bytes": 60368,
+      "sha256": "72d90c6f28eb1bdecd7a2b81cfde67c54aa746713ee389a102197368197612c3"
+    },
+    {
+      "path": "assets/works/work-022.webp",
+      "bytes": 178128,
+      "sha256": "3687d4d0f3d25344dc1b44edfd8441cd7e5a48b157e59b836c01dc9b92b18fa1"
+    },
+    {
+      "path": "assets/works/work-023-thumb.webp",
+      "bytes": 51504,
+      "sha256": "247af96b6c455fa78e71fde56838d17045085a5063a6b2b8bd586df3d283eb31"
+    },
+    {
+      "path": "assets/works/work-023.webp",
+      "bytes": 150706,
+      "sha256": "47a80f33d32e1e6b14d61f0ff272e52c40121247b330869e9b75e70bee012658"
+    },
+    {
+      "path": "assets/works/work-024-thumb.webp",
+      "bytes": 71328,
+      "sha256": "7f208a1d2aca2da79749546597cb84716e97dbe5d94a46b62e221263a9e5c347"
+    },
+    {
+      "path": "assets/works/work-024.webp",
+      "bytes": 199446,
+      "sha256": "51a6e3a454021a11633b99d6b739450f95b4849de72bd3c5b29f06ddbb3ee756"
+    },
+    {
+      "path": "assets/works/work-025-thumb.webp",
+      "bytes": 74126,
+      "sha256": "142487e214d59d46748c3b1ad6eaa5886e36473fc9e11230824d4029c34b3df1"
+    },
+    {
+      "path": "assets/works/work-025.webp",
+      "bytes": 204420,
+      "sha256": "d428c75d34a91ef4694e96b53acc5f6506de1e5bf3b66e4bccbbf1f84aedb9a3"
+    },
+    {
+      "path": "assets/works/work-026-thumb.webp",
+      "bytes": 72982,
+      "sha256": "2071f59653e75cc48f7a088fee040a7270ab2feaf4f3a9548fc6ea30732952f1"
+    },
+    {
+      "path": "assets/works/work-026.webp",
+      "bytes": 207964,
+      "sha256": "96b209977e00c5f8664e91bf6a99fc03d968dde0b7ba151793449b8b43f7025e"
+    },
+    {
+      "path": "assets/works/work-027-thumb.webp",
+      "bytes": 22800,
+      "sha256": "380d7a3e8550107f3734dfafe3d1b5d665d28eb3b68b1fe141eff83db9163bad"
+    },
+    {
+      "path": "assets/works/work-027.webp",
+      "bytes": 90190,
+      "sha256": "abd235e65ea0d5ed241c3c6e0a6aa36519065acb6cf9ceac7e383047505ca37a"
+    },
+    {
+      "path": "assets/works/work-028-thumb.webp",
+      "bytes": 36674,
+      "sha256": "0c5d5b54f9e53f5e9eaae5bb398ed78627c6927995bdac34a9af9eb3f2c84e4b"
+    },
+    {
+      "path": "assets/works/work-028.webp",
+      "bytes": 137032,
+      "sha256": "719b930a9d5806b4acee0409f304257c75ba30568cb856d5e246d8a6c7dbbef9"
+    },
+    {
+      "path": "assets/works/work-029-thumb.webp",
+      "bytes": 24436,
+      "sha256": "c16ec55e02a3d4a96039e849c636abe8f3b3bdc1f9d237bc9ae0c686011aec1f"
+    },
+    {
+      "path": "assets/works/work-029.webp",
+      "bytes": 92598,
+      "sha256": "80b39ce0c7112aee802eab4614fa423feffc707ad5cf82ad5921150415774a6e"
+    },
+    {
+      "path": "assets/works/work-030-thumb.webp",
+      "bytes": 29234,
+      "sha256": "c57d20be2f5c262a1ad4377e8cd39528e5ecafb53ed500ff18eb45eb575db0cb"
+    },
+    {
+      "path": "assets/works/work-030.webp",
+      "bytes": 104380,
+      "sha256": "d7b2841f17ea5472a5311313122fb649ceb15167e60cc226166c3e418ded82c6"
+    },
+    {
+      "path": "assets/works/work-031-thumb.webp",
+      "bytes": 26630,
+      "sha256": "693f69b230691e49556d8bb9f5338799123c30db12aab6495994283c45d037b3"
+    },
+    {
+      "path": "assets/works/work-031.webp",
+      "bytes": 100566,
+      "sha256": "0a49521f97e0a6bf04acc6cae88dae6b0e3e1bb7635be2a6879ea0c79679d464"
+    },
+    {
+      "path": "assets/works/work-032-thumb.webp",
+      "bytes": 24630,
+      "sha256": "233cce77e40c873d38d9d663fc25deb98a993cc2d0032972375aceb452fb984b"
+    },
+    {
+      "path": "assets/works/work-032.webp",
+      "bytes": 93430,
+      "sha256": "117d1df26f4eed5021a14451d4e3252d9e64461e1a04c30c2b02ec7bcc1a51c1"
+    },
+    {
+      "path": "assets/works/work-033-thumb.webp",
+      "bytes": 20990,
+      "sha256": "ffc616213bc67751346917f2aa68e025f1e967879fbea2fffd2f9efa742f3342"
+    },
+    {
+      "path": "assets/works/work-033.webp",
+      "bytes": 77968,
+      "sha256": "74d34797ea818b444964cd29dcf4c8302ea8c9923bbf83b4983fa8452c40f2c6"
+    },
+    {
+      "path": "assets/works/work-034-thumb.webp",
+      "bytes": 23846,
+      "sha256": "ad372edfe3817ea3d4b981d5a8b0090f18735f2dc2414c34a0a6f1e7742156ab"
+    },
+    {
+      "path": "assets/works/work-034.webp",
+      "bytes": 89660,
+      "sha256": "6844e5868e0921ca276a79ff37f41032086ec74f757b8f81a477371c8d05ca96"
+    },
+    {
+      "path": "assets/works/work-035-thumb.webp",
+      "bytes": 23518,
+      "sha256": "8dc5ea58c91e2857d08871e1f894d80d2a357dbadd6a2eb269f0877baff21c62"
+    },
+    {
+      "path": "assets/works/work-035.webp",
+      "bytes": 41848,
+      "sha256": "76cb81d44f0bcc9905cda809084047591552ea201c55ab82123826d359a6e197"
+    },
+    {
+      "path": "assets/works/work-036-thumb.webp",
+      "bytes": 20738,
+      "sha256": "e8b327a8f352a98d47cd73a773e367c397a1da37b3e4fd83800093f8fa78ba39"
+    },
+    {
+      "path": "assets/works/work-036.webp",
+      "bytes": 90008,
+      "sha256": "79166749be837e948e4e3dc7bedd4767be1d2835757a46601e0d18560030c9d9"
+    },
+    {
+      "path": "assets/works/work-037-thumb.webp",
+      "bytes": 28132,
+      "sha256": "af6480a0fde45705e553f18896300bf095e6445ad0ccf40393bf30818ec5bbaa"
+    },
+    {
+      "path": "assets/works/work-037.webp",
+      "bytes": 39892,
+      "sha256": "4ce19116b3f705310fcc4689e3e4b8c178b4413a885a5679df4edb3a89f753d6"
+    },
+    {
+      "path": "assets/works/work-038-thumb.webp",
+      "bytes": 28462,
+      "sha256": "068b0450a4710054e987eaaad6bcd15c238994f4cc9fae47b87bc8f4042567e7"
+    },
+    {
+      "path": "assets/works/work-038.webp",
+      "bytes": 124304,
+      "sha256": "2edd83edbc11e81f7f39fc3ecac206897b69ea4b56eea9490f5a2294477f2c51"
+    },
+    {
+      "path": "assets/works/work-039-thumb.webp",
+      "bytes": 47330,
+      "sha256": "52e0446716608c049b7ae20df571bcaed5bc1dffca450e43011426113edcaba6"
+    },
+    {
+      "path": "assets/works/work-039.webp",
+      "bytes": 136354,
+      "sha256": "f7c96509d85064ce8576c5ef2358fd154630aaada1490d936d7d8398a2dad994"
+    },
+    {
+      "path": "assets/works/work-040-thumb.webp",
+      "bytes": 46186,
+      "sha256": "f0b2387bcc1ff4db708168ec208138c598fbeaac90ba5a4cd9e77dab7f15a7d4"
+    },
+    {
+      "path": "assets/works/work-040.webp",
+      "bytes": 133284,
+      "sha256": "9e18e8b2c3293d66f96de779af2f8976e2fe92775b83eb5d625ed546861d9a7a"
+    },
+    {
+      "path": "assets/works/work-041-thumb.webp",
+      "bytes": 45510,
+      "sha256": "94e11de4775e0d02af4c553241def70234100e97197bcda979db6d7665056fde"
+    },
+    {
+      "path": "assets/works/work-041.webp",
+      "bytes": 138260,
+      "sha256": "356f5e0dbb05761ca844bf6595b11818be1421f3ae1930266623a34c4eae9bfa"
+    },
+    {
+      "path": "assets/works/work-042-thumb.webp",
+      "bytes": 107932,
+      "sha256": "8fb604b19affd23e7a229169d0085f6560fb3e50abc861f8a69bcef3ef292f7a"
+    },
+    {
+      "path": "assets/works/work-042.webp",
+      "bytes": 325112,
+      "sha256": "3ff543513dc6b2f598e8be46ba90edea72626e152f2709f2cd2aec671ab0f915"
+    },
+    {
+      "path": "assets/works/work-043-thumb.webp",
+      "bytes": 121484,
+      "sha256": "4b038cbe2ab7479e1c26713f50b0e8a2d8eaac700c23792274340a4a31b7a611"
+    },
+    {
+      "path": "assets/works/work-043.webp",
+      "bytes": 374530,
+      "sha256": "70de3a2fd5d1270c712e76981c97fd9e3b85b65940534f298f22df91afb957ba"
+    },
+    {
+      "path": "assets/works/work-044-thumb.webp",
+      "bytes": 84144,
+      "sha256": "5fe5222a28a3092da6713ddbfca7c2733b1d459c731370be6c45634c1b976672"
+    },
+    {
+      "path": "assets/works/work-044.webp",
+      "bytes": 259532,
+      "sha256": "fa70880baa29d8b82f13cd81bc4126e8389f5d61f2e8dcae89b1b709c8a3becd"
+    },
+    {
+      "path": "assets/works/work-045-thumb.webp",
+      "bytes": 150028,
+      "sha256": "e6cd6984e761ac83e5dce672e28506de2732df25d9a70fd17ddf944a4b7dca37"
+    },
+    {
+      "path": "assets/works/work-045.webp",
+      "bytes": 417806,
+      "sha256": "1df4608947a258b01ce7a1081aca5ba47efe2aa76fd4264cc36e756cf32190c8"
+    },
+    {
+      "path": "assets/works/work-046-thumb.webp",
+      "bytes": 108280,
+      "sha256": "79b00906bef0da9eb24088bde75c30397c3471d4f1bc1070de95c7fcb4f8a072"
+    },
+    {
+      "path": "assets/works/work-046.webp",
+      "bytes": 386418,
+      "sha256": "43cfc056c9215b456cbf2a61548cadadc931f9273bc36e2901406b02b42cb146"
+    },
+    {
+      "path": "assets/works/work-047-thumb.webp",
+      "bytes": 102896,
+      "sha256": "f083d33ca24b3a171d5fd6efa86f7dbda77fafbde9417799d8fc6e05218c1271"
+    },
+    {
+      "path": "assets/works/work-047.webp",
+      "bytes": 311118,
+      "sha256": "c2594e89b95909649fc57315b85564be03484bc9e3a162fd724271dbafc4f798"
+    },
+    {
+      "path": "assets/works/work-048-thumb.webp",
+      "bytes": 100740,
+      "sha256": "6b4dce30919dff3ee504d1b5bc48de412967b9afecb422359053d3e0a568948e"
+    },
+    {
+      "path": "assets/works/work-048.webp",
+      "bytes": 316082,
+      "sha256": "ee30c75690b7859a23e1789d43848e23d0925604d09cce830f8d8c2a4ffd154b"
+    },
+    {
+      "path": "assets/works/work-049-thumb.webp",
+      "bytes": 99754,
+      "sha256": "21eddbda1b02db3a1175cf453eb2db8a4410acbf859079d5b24d8bc0486ca24f"
+    },
+    {
+      "path": "assets/works/work-049.webp",
+      "bytes": 309802,
+      "sha256": "7acfbe5f9fd016ff957f8e0f96d4a26a13970effac38da9405ba00ba4070362c"
+    },
+    {
+      "path": "assets/works/work-050-thumb.webp",
+      "bytes": 144950,
+      "sha256": "7f86dd9145293d2ae152458533c93168dcf4814d0ba93606489f92e2c1308828"
+    },
+    {
+      "path": "assets/works/work-050.webp",
+      "bytes": 1173698,
+      "sha256": "482c9cb49bb5c408bf9661f7490c152c0fe0ae21ad978a5549640cb724841b73"
+    },
+    {
+      "path": "card-piles.css",
+      "bytes": 5689,
+      "sha256": "b62fb21364c5792dc4a762577f09233380baae9cbf8b813ecf386a9d5a980c39"
+    },
+    {
+      "path": "entrances.mjs",
+      "bytes": 10412,
+      "sha256": "64d2a28995d6d19a4f9a97b96574c9b22aa17fb4e23adfd9d08fd9b1f18c20e7"
+    },
+    {
+      "path": "impact-titles.mjs",
+      "bytes": 4682,
+      "sha256": "7b4df8d88cc62a071c51f93e98f278f0b9505f3229995fcd688d7b3104e60181"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9973,
+      "sha256": "e91e3e20c340f0f12becd1225a7deee64afed7b32a3169eaf5b45c407cd7e5b8"
+    },
+    {
+      "path": "motion.css",
+      "bytes": 12582,
+      "sha256": "dc1be14dbf9a64b8bcffab9f29f72006e72742f70ee84c0cbf46aaa1aa6ea163"
+    },
+    {
+      "path": "motion.mjs",
+      "bytes": 3626,
+      "sha256": "d76a495f151bee1e849a9cb0d8d500817da497531cb17f92a3761d3f5258d631"
+    },
+    {
+      "path": "portfolio-data.js",
+      "bytes": 31647,
+      "sha256": "f95ed2766147b65a228d00c8521eb090ce63faf279d19a6f67167c0979baecf6"
+    },
+    {
+      "path": "punch-motion.css",
+      "bytes": 854,
+      "sha256": "8c635754d2fb1edadec72adf6ff7f8bd4174947179c6fcd287abf3dbaa0e9c90"
+    },
+    {
+      "path": "reference-motion.css",
+      "bytes": 7556,
+      "sha256": "fdb07da4b364261fab88df90ca2732a441782642031772be72854f4a9165a0dc"
+    },
+    {
+      "path": "reference-motion.mjs",
+      "bytes": 11583,
+      "sha256": "15b6ffc4d73bf32b17aecd2a6d18a029c0feef770345c4d23097c9e3442aa03d"
+    },
+    {
+      "path": "scroll-story.css",
+      "bytes": 7202,
+      "sha256": "8f06c91ef66e6b3029820f253d828d019e49c84bff129319aa8662f701e53aec"
+    },
+    {
+      "path": "scroll-story.mjs",
+      "bytes": 8392,
+      "sha256": "e8d2ab36d780efd9094450e51501d8f28c433feb1ae8be783c9242c874e0d100"
+    },
+    {
+      "path": "signature.css",
+      "bytes": 1376,
+      "sha256": "d3e968c0bf68074f086eeb4e85244f677dcf233c0f176decde3d992472dc3334"
+    },
+    {
+      "path": "signature.mjs",
+      "bytes": 5591,
+      "sha256": "e1da369576116af6f0c85e95ee118b67b3ed5b05d529868ab1da1d87e047796a"
+    },
+    {
+      "path": "stack-gallery.mjs",
+      "bytes": 11474,
+      "sha256": "4176fb8e026615a3344772401b694d3f0bf7f63037841e2d5b56d48b3761ac84"
+    },
+    {
+      "path": "style.css",
+      "bytes": 20744,
+      "sha256": "2c3b7f5ea120b61dc7c9aaa96e384781f7377b82054333e107295174020e2728"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+name: Export downloadable project packages
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/export.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: project-export
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Record export version
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          p = Path('EXPORT-INFO.json')
+          info = json.loads(p.read_text())
+          info['originalSiteCommit'] = '5271868580f32887397b4206d4fda55a89ddedbb'
+          info['sourceCommit'] = os.environ['GITHUB_SHA']
+          info['repository'] = 'https://github.com/huoribikun/Kunkun'
+          info['exportedAt'] = datetime.now(ZoneInfo('Asia/Shanghai')).isoformat()
+          p.write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n')
+          PY
+      - name: Build production files
+        run: npm run build
+      - name: Package source and production files
+        run: |
+          python - <<'PY'
+          import hashlib, os, subprocess, zipfile
+          from pathlib import Path
+          root = Path.cwd()
+          output = Path(os.environ['RUNNER_TEMP']) / 'portfolio-export'
+          output.mkdir()
+          names = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
+          packages = [
+              ('kunkun-latest-complete.zip', [(root / name, 'kunkun-portfolio/' + name) for name in names if name]),
+              ('kunkun-latest-production.zip', [(p, p.relative_to(root / 'dist').as_posix()) for p in sorted((root / 'dist').rglob('*')) if p.is_file()])
+          ]
+          checksums = []
+          for name, files in packages:
+              target = output / name
+              with zipfile.ZipFile(target, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+                  for path, relative in files:
+                      archive.write(path, relative)
+              with zipfile.ZipFile(target) as archive:
+                  assert archive.testzip() is None
+              checksums.append(hashlib.sha256(target.read_bytes()).hexdigest() + '  ' + name)
+              print(name, target.stat().st_size, 'bytes, integrity OK')
+          (output / 'SHA256SUMS.txt').write_text('\n'.join(checksums) + '\n')
+          (output / 'release-notes.md').write_text('焜焜作品集完整项目和生产部署包，包含全部源码、50 张作品原图、本地字体、交互动效及部署说明。生产构建和 ZIP 完整性检查均已通过。\n\n源码版本：' + os.environ['GITHUB_SHA'] + '\n')
+          PY
+      - name: Publish download links
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag=export-2026-11-16
+          folder="$RUNNER_TEMP/portfolio-export"
+          if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release create "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --draft --title '焜焜作品集 · 完整项目与生产构建' --notes-file "$folder/release-notes.md"
+          fi
+          gh release upload "$tag" "$folder/kunkun-latest-complete.zip" "$folder/kunkun-latest-production.zip" "$folder/SHA256SUMS.txt" --repo "$GITHUB_REPOSITORY" --clobber
+          gh release edit "$tag" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --draft=false --latest --notes-file "$folder/release-notes.md"

@@ -17,3 +17,55 @@
 
 /* Contact details fit the existing responsive footer. */
 footer .footer-email{font-size:13px;letter-spacing:.2px;max-width:100%;overflow-wrap:anywhere}
+
+.project-design-note {
+  margin-block: 16px;
+  padding: 14px 16px;
+  border-inline-start: 3px solid #a6b696;
+  border-radius: 0 12px 12px 0;
+  background: #f1f5eb;
+  color: #344632;
+}
+.project-design-note h3 {
+  margin: 0 0 5px;
+  font-size: 14px;
+}
+.project-design-note p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.75;
+  max-width: 72ch;
+}
+
+.design-note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+.design-note-header h3 { margin: 0; }
+#design-note-toggle {
+  border: 1px solid #adbf9c;
+  border-radius: 12px;
+  background: #fffdf5;
+  color: #35553e;
+  padding: 4px 8px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 11px;
+}
+#project-design-note {
+  max-height: 6em;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-inline-end: 7px;
+  font-size: 13px;
+  line-height: 1.75;
+}
+#project-design-note p { max-width: 64ch; }
+#project-design-note p + p { margin-top: .65em; }
+#project-design-note:focus-visible {
+  outline: 2px solid #527a5c;
+  outline-offset: 3px;
+}

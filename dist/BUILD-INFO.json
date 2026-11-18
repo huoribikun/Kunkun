@@ -1,6 +1,6 @@
 {
   "project": "焜焜 · 设计与插画作品集",
-  "sourceCommit": "5271868580f32887397b4206d4fda55a89ddedbb",
+  "sourceCommit": "02b855a1ea4760a6d4b323203bb7ca2160b27a37",
   "format": "static HTML/CSS/JavaScript",
   "sections": 6,
   "artworks": 50,
@@ -12,8 +12,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 8194,
-      "sha256": "932fde5ad4a308fcb452c99d370c0a18b7b6093f20998d621f59e88d35584a16"
+      "bytes": 8356,
+      "sha256": "c4970330e8a15933a44a4718f3a0ce0ce0fa2c405b43d4420a4d808d1f8b336b"
     },
     {
       "path": "assets/favicon.svg",
@@ -549,6 +549,16 @@
       "path": "assets/motion/music-star.svg",
       "bytes": 1470468,
       "sha256": "05af7ed703d2a5f67fbea9c58468435a58b36a00b7a2d637f5d972be2e450602"
+    },
+    {
+      "path": "assets/profile-mascot.webp",
+      "bytes": 79804,
+      "sha256": "7af73726325329f738600e51c88ed443a658da3b5c6c5acca63cfc347e708107"
+    },
+    {
+      "path": "assets/profile-wave.webp",
+      "bytes": 87502,
+      "sha256": "f4951225fae830a71deafacab72b7bea72dc3ca30c7e9726df32e8c274dc65fe"
     },
     {
       "path": "assets/works/originals/work-001.jpg",
@@ -1306,6 +1316,11 @@
       "sha256": "b62fb21364c5792dc4a762577f09233380baae9cbf8b813ecf386a9d5a980c39"
     },
     {
+      "path": "design-note.mjs",
+      "bytes": 2439,
+      "sha256": "0e3f919d1387753083a01172c229bd8e1140efc782da5a699719ec64c2a9acd8"
+    },
+    {
       "path": "entrances.mjs",
       "bytes": 10412,
       "sha256": "64d2a28995d6d19a4f9a97b96574c9b22aa17fb4e23adfd9d08fd9b1f18c20e7"
@@ -1317,8 +1332,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9973,
-      "sha256": "e91e3e20c340f0f12becd1225a7deee64afed7b32a3169eaf5b45c407cd7e5b8"
+      "bytes": 12205,
+      "sha256": "cf52d83be6b4536a9aac939d57cf9986af024d09b306b2a1fd00d2afa1fa928a"
     },
     {
       "path": "motion.css",
@@ -1332,8 +1347,18 @@
     },
     {
       "path": "portfolio-data.js",
-      "bytes": 31647,
-      "sha256": "f95ed2766147b65a228d00c8521eb090ce63faf279d19a6f67167c0979baecf6"
+      "bytes": 36103,
+      "sha256": "17c127ff201a40cc312d54251e5f94667fca7f214caa46162902c3a2dc826108"
+    },
+    {
+      "path": "profile.css",
+      "bytes": 2704,
+      "sha256": "60f8063a60605b28b534a32b8dd3814ae49a4b33016295ea2a0b9146b6fafdfd"
+    },
+    {
+      "path": "profile.mjs",
+      "bytes": 3041,
+      "sha256": "e36dab9e25b29a9a353d987d587b85ff048ca2632aab6eb5c8bcdf7809bd518a"
     },
     {
       "path": "punch-motion.css",
@@ -1377,8 +1402,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 20744,
-      "sha256": "2c3b7f5ea120b61dc7c9aaa96e384781f7377b82054333e107295174020e2728"
+      "bytes": 21804,
+      "sha256": "700bed8a6f86d72f187b219607477a4b9abdf5be44b97a58305d74f6db428ada"
     }
   ]
 }
